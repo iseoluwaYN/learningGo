@@ -18,6 +18,12 @@ func main(){
 	//
 	//fmt.Println(321325*424521)
 
-	variable()
-
+	//variable()
+	//convertFromFahrenheits()
+	//feetToMeters()
+	//loops()
+	moreLoops()
+	oddNumbers()
+	array()
+	specialLoop()
 }
