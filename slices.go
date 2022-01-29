@@ -33,3 +33,21 @@ func copying(){
 	copy(slice2, slice1)
 	fmt.Println(slice1, slice2)
 }
+
+func leastNumber(){
+	x := []int{
+		48,96,86,68,
+		57,82,63,70,
+		37,34,83,27,
+		19,97, 9,17,
+	}
+	var smallest =0
+	for i :=0;i < len(x); i++{
+		var initialNumber = i
+		nextNumber := x[i+1]
+		if initialNumber < nextNumber {
+			smallest = initialNumber
+		}
+	}
+	fmt.Println(smallest)
+}
