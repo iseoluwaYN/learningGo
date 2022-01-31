@@ -9,6 +9,10 @@ func main() {
  	words := "Iseoluwa is dope"
  	fmt.Println(
  	human.speak(words))
+
+// 	inheritance
+	tobi := new(Student)
+	tobi.speak(words)
 }
 
 type Human struct {
@@ -20,3 +24,11 @@ type Human struct {
 func (human Human) speak(words string) string {
 	return words
 }
+
+// inheritance
+type Student struct {
+	Human
+	Class string
+}
+
+
