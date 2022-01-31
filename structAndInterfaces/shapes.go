@@ -33,4 +33,3 @@ var c Circle
 type Circle struct {
 	x,y,z float64
 }
-
