@@ -1,7 +1,6 @@
 package main
 
-
-func main(){
+func main() {
 	//fmt.Println("Hello World \nI love to code" )
 	//var s string
 	//
@@ -22,8 +21,5 @@ func main(){
 	//convertFromFahrenheits()
 	//feetToMeters()
 	//loops()
-	moreLoops()
-	oddNumbers()
-	array()
-	specialLoop()
+
 }
